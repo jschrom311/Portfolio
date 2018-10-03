@@ -3,24 +3,24 @@
 /*$(document).ready(main);
 function main() {
   $('#headerimg').hide();
-  $('#headerimg').fadeIn(1000);
+  $('#headerimg').fadeIn(1500);
 }
 
-$('#head-click').click(function() {
+$('#about').click(function() {
   $('html, body').animate({
-    scrollTop: $('#head-container').offset().top
+    scrollTop: $('#about').offset().top
   }, 800);
 });
 
-$('#contact-click').click(function() {
+$('#projects').click(function() {
   $('html, body').animate({
-    scrollTop: $('#project-container').offset().top
+    scrollTop: $('#project').offset().top
   }, 800);
 });
 
-$('#about-click').click(function() {
+$('#contact').click(function() {
   $('html, body').animate({
-    scrollTop: $('#contact-container').offset().top
+    scrollTop: $('#contact').offset().top
   }, 800);
 });*/
 

@@ -10,6 +10,7 @@ body {
 /*** Nav Bar ***/
 .navbar {
     margin-bottom: 10px !important;
+    margin: 0px 15px !important;
 }
 
 /*** Header Image Section ***/
@@ -24,10 +25,11 @@ body {
         /*url("http://media.voog.com/0000/0041/9830/photos/Hundred5%20Blog%20How%20to%20Hire%20Programmers_large.png");*/
     position: relative;
     height: 700px;
+    margin-top: 70px;
 }
 
 #headercontent {
-    font-family: Roboto Slab;
+    font-family: Roboto Slab, serif;
     letter-spacing: 2.5px;
     color: rgb(44, 44, 43);
     font-size: 1.2em;
@@ -61,7 +63,7 @@ h3 {
     padding-top: 20px;
     text-align: center;
     color: rgb(100, 147, 186);
-    font-family: Roboto;
+    font-family: Roboto Slab, serif;
     font-size: 1.5em;
     line-height: 1.5;
 }
@@ -93,7 +95,7 @@ h3 {
 /*** About Me Section ***/
 
 .about-container {
-    background-color: rgb(100, 147, 186);
+    background-color: #343a40;
     margin: 10px 0;
     color: white;
     display: flex;
@@ -141,9 +143,9 @@ p {
 }
 
 .projects-container {
-    background: linear-gradient(to left, #CFCED3, #ECECEA);
+    background: #343a40;
     margin: 10px 0;
-    color: white;
+    color: white !important;
     display: flex;
     justify-content: flex-end;
     min-height: 450px;
@@ -161,14 +163,6 @@ p {
     border: 4px solid white;
 }
 
-.topical {
-    max-height: 400px;
-}
-
-.topical-right {
-    margin-right: 10px;
-}
-
 .project-img:hover {
     background-color: #CFCED3;
     opacity: 0.8;
@@ -178,15 +172,15 @@ p {
     align-self: center;
     max-width: 50%;
     margin-right: 5%;
-    color: #333;
+    color:white;
     font-weight: 400;
 }
 
 #projectheader {
-    font-family: Raleway;
+    font-family: Roboto Slab;
     letter-spacing: 2px;
     text-align: center;
-    color: #333;
+    color: white;
     margin-bottom: 20px;
     align-self: center;
     font-size: 3em;
@@ -198,7 +192,7 @@ p {
 
 .tech-stack {
     font-weight: 900;
-    color: black;
+    color: white;
     font-size: 22px;
 }
 
@@ -211,7 +205,7 @@ p {
 /*** Contact Section ***/
 
 .projects-header {
-    font-family: Raleway;
+    font-family: Roboto Slab;
     margin: 0 auto;
     text-align: center;
     margin-top: 60px;
