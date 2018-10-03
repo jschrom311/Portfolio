@@ -8,7 +8,9 @@ body {
 }
 
 /*** Nav Bar ***/
-
+.navbar {
+    margin-bottom: 10px !important;
+}
 
 /*** Header Image Section ***/
 
@@ -16,10 +18,10 @@ body {
     background-size: cover;
     background-position: center;
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
         /*url("http://www.ravepubs.com/wp-content/uploads/2015/10/programmers-1015.jpg");*/
-        /*url("https://cdn-images-1.medium.com/max/2000/0*HICLyAdNSIyT0ODU.jpg");*/
-        url("http://media.voog.com/0000/0041/9830/photos/Hundred5%20Blog%20How%20to%20Hire%20Programmers_large.png");
+        url("https://cdn-images-1.medium.com/max/2000/0*HICLyAdNSIyT0ODU.jpg");
+        /*url("http://media.voog.com/0000/0041/9830/photos/Hundred5%20Blog%20How%20to%20Hire%20Programmers_large.png");*/
     position: relative;
     height: 700px;
 }
@@ -42,6 +44,8 @@ h1 {
 
 h3 {
     margin-top: 0px;
+    padding-bottom: 2px;
+    padding-top: 5px;
 }
 
 
@@ -71,6 +75,15 @@ h3 {
     border-color: rgb(44, 44, 43);
 }
 
+.hr-lineone {
+    width: 600px;
+    max-width: 80%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0px auto;
+    border-color: rgb(44, 44, 43);
+}
+
 .connect-wrapper {
     margin-top: 10px;
     margin-bottom: 0px;
@@ -79,7 +92,7 @@ h3 {
 
 /*** About Me Section ***/
 
-#about-container {
+.about-container {
     background-color: rgb(100, 147, 186);
     margin: 10px 0;
     color: white;
@@ -118,7 +131,7 @@ p {
 /*** Project Section ***/
 
 .projects-header {
-    font-family: Raleway;
+    font-family: Roboto Slab;
     margin: 0 auto;
     text-align: center;
     margin-top: 60px;
@@ -127,7 +140,7 @@ p {
     font-size: 4.5em;
 }
 
-#projects-container {
+.projects-container {
     background: linear-gradient(to left, #CFCED3, #ECECEA);
     margin: 10px 0;
     color: white;
@@ -150,7 +163,6 @@ p {
 
 .topical {
     max-height: 400px;
-    /* margin-right: 10px; */
 }
 
 .topical-right {
@@ -230,7 +242,7 @@ p {
 @media (max-width: 1024px) {
 
     #about-container,
-    #projects-container {
+    .projects-container {
         flex-direction: column;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -245,7 +257,7 @@ p {
 @media (max-width: 760px) {
 
     #about-container,
-    #projects-container {
+    .projects-container {
         flex-direction: column;
         padding-top: 50px;
         padding-bottom: 50px;
