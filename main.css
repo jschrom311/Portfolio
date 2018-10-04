@@ -100,18 +100,18 @@ h3 {
 .about-container {
     background-color: #343a40;
     margin: 10px 0;
-    color: white;
     display: flex;
     justify-content: flex-end;
-    min-height: 450px;
+    min-height: 500px;
 }
 
 #aheader {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     align-self: center;
     font-size: 3em;
     text-align: center;
+    margin-top: 10px;
 }
 
 /*#abouttext {
@@ -124,32 +124,77 @@ h3 {
 #abouttext {
     color: white;
     text-align: center;
+    display: inline-block;
+    width: 100%;
 }
 
 .textcolumn {
     column-count: 2;
-    column-width: 200px;
+    column-width: 300px;
+    -moz-column-width: 300px;
+    -webkit-column-width: 300px;
 }
 
-/*#sheader {
+#sheader {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     align-self: center;
     font-size: 3em;
     text-align: center;
-}*/
+}
+
+#skilltext {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
 
 p {
     font-size: 20px;
     text-align: left;
     margin: 0 auto;
+    padding-bottom: 10px;
     max-width: 80%;
-    line-height: 1.5;
 }
 
 .text-nowrap {
     white-space: nowrap;
 }
+
+/*** Skill Section ***/
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: -webkit-center;
+}
+
+li {
+    border-bottom: 1px solid white;
+    max-width: 70%;
+    padding: 1px;
+    font-size: 15px;
+  }
+   
+  li:last-child {
+    border: none;
+  }
+   
+/*  li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 200px;
+   
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+  }*/
 
 /*** Project Section ***/
 
@@ -290,15 +335,6 @@ p {
     .project-img {
         width: 350px;
         min-height: 200px;
-    }
-
-    .topical {
-        max-height: 500px;
-        padding: 10px;
-    }
-
-    .topical-right {
-        margin-right: 0px;
     }
 }
 
