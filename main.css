@@ -103,23 +103,41 @@ h3 {
     color: white;
     display: flex;
     justify-content: flex-end;
-    min-height: 550px;
+    min-height: 450px;
 }
 
 #aheader {
-    text-align: ;
     color: white;
     margin-bottom: 20px;
     align-self: center;
     font-size: 3em;
+    text-align: center;
 }
 
-#abouttext {
+/*#abouttext {
     align-self: center;
     max-width: 50%;
     margin-right: 5%;
     text-align: center;
+}*/
+
+#abouttext {
+    color: white;
+    text-align: center;
 }
+
+.textcolumn {
+    column-count: 2;
+    column-width: 200px;
+}
+
+/*#sheader {
+    color: white;
+    margin-bottom: 20px;
+    align-self: center;
+    font-size: 3em;
+    text-align: center;
+}*/
 
 p {
     font-size: 20px;
