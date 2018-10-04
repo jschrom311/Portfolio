@@ -12,6 +12,9 @@ body {
     margin-bottom: 10px !important;
     margin: 0px 15px !important;
 }
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
 
 /*** Header Image Section ***/
 
@@ -24,7 +27,7 @@ body {
         url("https://cdn-images-1.medium.com/max/2000/0*HICLyAdNSIyT0ODU.jpg");
         /*url("http://media.voog.com/0000/0041/9830/photos/Hundred5%20Blog%20How%20to%20Hire%20Programmers_large.png");*/
     position: relative;
-    height: 700px;
+    height: 750px;
     margin-top: 70px;
 }
 
