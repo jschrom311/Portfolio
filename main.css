@@ -318,7 +318,7 @@ ul {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     #headercontent {
         font-size: .6em;
     }
@@ -337,4 +337,17 @@ ul {
     }
 }
 
+@media (max-width: 415px) {
+    #headercontent {
+        font-size: .4em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    .contact-info {
+        font-size: 1.4em;
+    }
+}
 
