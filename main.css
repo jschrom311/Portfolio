@@ -7,7 +7,7 @@ body {
     font-weight: 300;
 }
 
-/*** Nav Bar ***/
+/***Nav***/
 .navbar {
     margin-bottom: 10px !important;
     margin: 0px 15px !important;
@@ -16,16 +16,14 @@ body {
     display: block!important;
   }
 
-/*** Header Image Section ***/
+/***Image***/
 
 #headerimg {
     background-size: cover;
     background-position: center;
     background-image:
         linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
-        /*url("http://www.ravepubs.com/wp-content/uploads/2015/10/programmers-1015.jpg");*/
         url("https://cdn-images-1.medium.com/max/2000/0*HICLyAdNSIyT0ODU.jpg");
-        /*url("http://media.voog.com/0000/0041/9830/photos/Hundred5%20Blog%20How%20to%20Hire%20Programmers_large.png");*/
     position: relative;
     height: 750px;
     margin-top: 70px;
@@ -54,7 +52,7 @@ h3 {
 }
 
 
-/*** Portfolio Header ***/
+/***Header***/
 
 #head-container {
     background-color: white;
@@ -95,7 +93,7 @@ h3 {
     display: block;
 }
 
-/*** About Me Section ***/
+/***About***/
 
 .about-container {
     background-color: #343a40;
@@ -156,7 +154,7 @@ p {
     white-space: nowrap;
 }
 
-/*** Skill Section ***/
+/***Skill***/
 
 ul {
     list-style: none;
@@ -176,7 +174,7 @@ ul {
     border: none;
   }
 
-/*** Project Section ***/
+/***Projects***/
 
 .projects-header {
     font-family: Roboto Slab;
@@ -277,7 +275,7 @@ ul {
 }
 
 
-/*** Media Queries ***/
+/***Media Queries***/
 
 @media (max-width: 1024px) {
 
